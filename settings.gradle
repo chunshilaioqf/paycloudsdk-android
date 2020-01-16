@@ -1,0 +1,2 @@
+include ':app', ':PaycloudPaymentSDK'
+rootProject.name='TestApplication'
