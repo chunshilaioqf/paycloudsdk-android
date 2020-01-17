@@ -21,6 +21,6 @@ Step 2. Add the dependency
 
 ```grade
 dependencies {
-  implementation 'com.github.chunshilaioqf:paycloudsdk-android:Tag'
+  implementation 'com.github.chunshilaioqf:paycloudsdk-android:1.0.1'
 }
 ```
