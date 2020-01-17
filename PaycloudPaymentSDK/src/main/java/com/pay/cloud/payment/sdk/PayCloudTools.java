@@ -74,6 +74,7 @@ public class PayCloudTools {
     public void start(String path){
         Intent intent = new Intent();
         intent.setClass(PayCloudTools.getAppContext(), SdkActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         Bundle bundle = new Bundle();
         bundle.putString("url",H5_URL + path + "?token=" + TOKEN + "&extUserId=" + EXT_USER_ID);
         PayCloudTools.getAppContext().startActivity(intent, bundle);
